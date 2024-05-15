@@ -69,6 +69,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'stock_monitoring_backend.wsgi.application'
 
+CORS_ORIGIN_ALLOW_ALL = True
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
