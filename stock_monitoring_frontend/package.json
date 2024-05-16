@@ -1,5 +1,6 @@
 {
   "name": "stock_monitoring_frontend",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "proxy": "http://localhost:8000",
