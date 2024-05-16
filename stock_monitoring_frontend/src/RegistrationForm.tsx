@@ -12,7 +12,9 @@ const RegistrationForm: React.FC = () => {
             username: username, 
             password: password 
           });
-          console.log('Registration successful:', response.data);      // Optionally, handle successful registration
+          console.log('Registration successful:', response.data);   
+          setUsername('');
+          setPassword('');   // Optionally, handle successful registration
     } catch (error) {
       console.error('Registration error:', error);
     }

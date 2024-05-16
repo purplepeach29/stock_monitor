@@ -14,7 +14,7 @@ const LoginForm: React.FC = () => {
 
   const handleLogin = async () => {
     
-      console.log('username, password')
+      console.log({username, password})
       axios.post('/api/login/', { username, password})
       .then(response => {
         console.log('Login successful:', response.data);
